@@ -1,5 +1,5 @@
 `include "mips_pipe.v"
-module mips_pipe_tb;
+module mips_pipe_tb1;
     reg clk1, clk2;
     integer k;
 
@@ -40,7 +40,7 @@ module mips_pipe_tb;
     initial 
     begin
             $dumpfile("mips.vcd");
-            $dumpvars(0, mips_pipe_tb);
+            $dumpvars(0, mips_pipe_tb1);
             #300 $finish; 
     end
 endmodule
