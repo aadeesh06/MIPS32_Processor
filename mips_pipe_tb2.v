@@ -39,6 +39,6 @@ module mips_pipe_tb2;
     begin
             $dumpfile("mips.vcd");
             $dumpvars(0, mips_pipe_tb2);
-            #300 $finish; 
+            #600 $finish; 
     end
 endmodule
